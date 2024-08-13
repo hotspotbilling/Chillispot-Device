@@ -1,2 +1,3 @@
-# Chillispot-Device
-This Devices is to allow using Chillispot with Radius Mysql
+# Chillispot Device
+
+This Devices is to allow using Chillispot with Radius Mysql in the PHPNuxBill
