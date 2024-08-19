@@ -133,8 +133,8 @@ class RadiusChillispot
             $ratos = $rates[0] . '/' . $rates[1];
         }
 
-        $this->upsertPackage($plan['id'], 'WISPr-Bandwith-Max-Up', $this->stringToInteger($rates[1]), ':=');
-        $this->upsertPackage($plan['id'], 'WISPr-Bandwith-Max-Down', $this->stringToInteger($rates[1]), ':=');
+        $this->upsertPackage($plan['id'], 'WISPr-Bandwidth-Max-Up', $this->stringToInteger($rates[1]), ':=');
+        $this->upsertPackage($plan['id'], 'WISPr-Bandwidth-Max-Down', $this->stringToInteger($rates[1]), ':=');
     }
 
     function stringToInteger($str)
